@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:10;
+}
+/*Style of the header*/
+.header{
+  background-color: #c1f1a1;
+  padding: 20px;
+  text-align: center;
+}
+/* style of the navigation bar*/
+.topnav{
+  background-color: #333;
+  overflow: hidden;
+}
+/* style the links inside the navigation bar*/
+.topnav a{
+  color: #ddd;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+
+}
+/*changes color on hover or mouse over*/
+.topnav a:hover{
+  background-color: #f1f1f1;
+  color: black;
+}
+/*Creates 3 equal colums that float next to each other*/
+.column{
+  float: left;
+  width:33.33%;
+  padding:15px;
+}

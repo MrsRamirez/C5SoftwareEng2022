@@ -1,0 +1,56 @@
+/* Write a comment explaining what you are doing on line 2*/
+*{
+  box-sizing: border-box;
+}
+/* make a prediction about line 6 rule set*/
+body{
+  background-color: lavender;
+  color: blueviolet;
+}
+
+
+
+/* Style of the header */
+
+.header{
+  background-color: #7267b3;
+  padding: 20px;
+  text-align: right;
+  color:#f1f1f1;
+}
+
+
+/* style of the navigation bar*/
+.topnav{
+  background-color:rgb(221, 84, 198);
+  overflow: hidden;
+}
+
+/* style the links inside the navigation bar*/
+.topnav a{
+  color: #ddd;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/*changes color on hover or mouse over*/
+.topnav a:hover{
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+
+/*Creates 3 equal colums that float next to each other*/
+.column{
+  float: left;
+  width:31.33%;
+  padding:15px;
+  color: cadetblue;
+  background-color: aquamarine;
+  border:  2px solid hotpink;
+  border-radius: 30%;
+  margin:10px;
+}

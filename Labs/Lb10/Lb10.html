@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internal CSS</title>
+  <style>
+    *{
+      box-sizing:border-box;
+    }
+    body{
+      background-repeat:no-repeat;
+      background-image:linear-gradient(to left,#00f,#100 );
+      background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhXT2EuH-ymxmN0IMOmyCb-CgpNM3UNfeTnw&usqp=CAU");
+      background-size:100%;
+      /*background-image:conic-gradient(pink,blue,green);*/
+    }
+.header{
+  background-image:repeating-radial-gradient(red 15%, yellow 60%, green 25%);
+  text-align: center;
+  padding:20px;
+margin:5px;
+color:#000EFD;
+}
+.topnav{
+  background-color:gray;
+  overflow:hidden;
+}
+
+/* style the links inside the navigation bar*/
+.topnav a{
+  color: #ddd;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+/*changes color on hover or mouse over*/
+.topnav a:hover{
+  background-color: #f1f1f1;
+  color: black;
+}
+/* this will affect all h1  html elemnts on the page
+Tag selector*/
+h1{
+  color:white;
+}
+/* this one will affect only the html element with the id="lname" ,ID selector*/
+#lname{
+  color:orange;
+}
+/* selector*/
+#demoBox h1{
+  color:purple;
+}
+
+
+
+
+
+  </style>
+</head>
+<body>
+<div class="topnav">
+  	<a href="../Lab1/lb1.html">LAB 1</a>
+    <a href="../Lab2/lb2.html">Lab 2</a>
+    <a href="../Lab3/Lb3.html">Lab 3</a>
+    <a href="../Lab4/Pepito.html">Lab 4</a>
+    <a href="../Lab5/page.html">Lab 5</a>
+    <a href="../Lab6/lb6.html">Lab 6</a>
+    <a href="../Lab8/lb8.html">Lab 8</a>
+    <a href="../Lab9/lb9.html">Lab 9</a>
+    <a href="../Lb10/Lb10.html">Lab 10</a>
+    <a href="../lb11/lb11.html">Lab 11</a>
+    <a href="../lb12/lb12.html">Lab 12</a>
+    <a href="../Lb13/lb13.html">Lab 13</a>
+    <a href="../lb14/lb14.html">Lab 14</a>
+    <a href="../lb15/lb15.html">Lab 15</a>
+    <a href="../Lb16/lb16.html">Lab 16</a>
+    <a href="../Lb17/lb17.html">Lab 17</a>
+    <a href="../Lb18/lb18.html">Lab 18</a>
+    <a href="../lb19/lb19.html">Lab 19</a>
+    <a href="../lb20/lb20.html">Lab 20</a>
+  </div>
+   <div class="header">
+    <h1 >Thomas A. Edison HS</h1>
+    <h2>Web Design Academy</h2>
+    <h3>Lab 10 Internal CSS</h3>
+    <h4>My Full Name</h4>
+  </div>
+  <div id="demoBox">
+    <h1>First Name</h1>
+    <h1 id="lname">Last Name</h1>
+    <h1>Today's Date</h1>
+  </div>
+  
+</body>
+</html>

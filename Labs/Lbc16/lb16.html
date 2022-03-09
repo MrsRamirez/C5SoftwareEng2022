@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Lab 16 HTML5 </title>
+	<link rel="stylesheet" href="../lb8/lb8.css">
+<style>
+  div iframe{
+    display: none;
+  }
+  div.gallery{
+    margin:3px;
+    border: 1px double #abc;
+    float:left;
+    width:150px;
+    overflow:hidden;
+  }
+  div.gallery:hover{
+    border:3px dashed #f00;
+  }
+div.gallery img {
+  
+}
+div.desc{
+  padding:15px;
+  text-align:rigth;
+  color: purple;
+}
+</style>
+</head>
+<body>
+	<div class="header">
+		<h1>QCC RF CUNY</h1>
+		<h2>Software Eng, Microcredential</h2>
+		<h3>Lab 16</h3>
+		<h4>Fun Stuff with CSS and JS </h4>
+	</div>
+	<div class="topnav">
+		<a href="../../">Home</a>
+		<a href="http://techteach.us">TechTEach</a>
+	</div>
+		<div>
+			<h2>iframe</h2>
+		
+		<iframe src="https://trinket.io/embed/python/390e908c84" ></iframe>
+	  </div>
+  <button type="submit" onclick="hiddenFunct()">Hide Gallery</button>
+	<div class="gallery">
+  <a target="_blank" href="https://images.theconversation.com/files/305837/original/file-20191209-90562-nsnsun.jpg?ixlib=rb-1.1.0&rect=284%2C696%2C1934%2C965&q=45&auto=format&w=1356&h=668&fit=crop">
+    <img src="https://images.theconversation.com/files/305837/original/file-20191209-90562-nsnsun.jpg?ixlib=rb-1.1.0&rect=284%2C696%2C1934%2C965&q=45&auto=format&w=1356&h=668&fit=crop" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg">
+    <img src="https://cdn2.wanderlust.co.uk/media/1037/forest-web.jpg?anchor=center&mode=crop&width=1200&height=0&rnd=132605629110000000" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg">
+    <img src="https://www.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+
+</body>
+
+</html>
